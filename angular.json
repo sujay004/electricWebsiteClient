@@ -5,7 +5,11 @@
   "projects": {
     "electric-website-client": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -88,9 +92,13 @@
               "src/assets"
             ],
             "styles": [
+            "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "electric-website-client"
+    }
+  },
+  "defaultProject": "electric-website-client",
+  "cli": {
+    "analytics": "f5b827da-12a2-402e-b16e-f26326c2abe8"
+  }
 }
