@@ -1,0 +1,151 @@
+/* a{
+    padding: 50px;
+} */
+@import '_variables.scss';
+
+// .navbar-nav {
+//   flex-direction: row;
+// }
+
+.nav-link {
+  padding-right: 3.7rem !important;
+  padding-left: .5rem !important;
+}
+
+
+.navbar {
+  background-color: $nav-bg-color;
+  height: 60px;
+}
+a{
+  color: $nav-font-color;
+}
+
+.navbar-toggler-icon{
+  color: whitesmoke;
+}
+
+.content{
+//  height: 200px; 
+//  position: relative;
+ width: 100%;
+ height: 400px;
+ background:$page-background-color;
+
+}
+
+
+
+.carousel-inner .card{
+  // position: absolute;
+  // top:120px;
+  color: whitesmoke;
+  border: none;
+  margin: auto;
+  width:50%;
+  height:250px;
+background-color: $page-background-color;
+  text-align:center;
+  line-height:100px;
+}
+.carousel-inner1 .card{
+  // position: absolute;
+  // top:120px;
+  color: whitesmoke;
+  border: none;
+  margin: auto;
+  width:50%;
+  height:250px;
+background-color: $page-background-color;
+  text-align:center;
+  line-height:100px;
+}
+ 
+
+.about-content{
+  width: 100%;
+  height:auto;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 350px;
+}
+
+// .about-heading{
+//   position: relative;
+//   width: 100%;
+//   height: 150px;
+// }
+// .about-heading-content{
+//   position: absolute;
+// top: 40px;
+// left: auto;
+// right: auto;
+// bottom: 0;
+// }
+
+
+.call-to-action-content{
+  background-color: $page-background-color;
+  color: whitesmoke;
+  height: 150px;
+  padding-top: 70px;
+  
+}
+
+.main-container{
+  overflow: auto;
+}
+// .card-content{
+//   bottom: auto;
+//   top: auto;
+//   height: auto;
+//   width: auto;
+// }
+
+.card-content .card{
+  // background-color: #EF6603;
+  width: 200px;
+  height: 100px;
+  padding:5px;
+}
+
+
+.bottom-card-content{
+  bottom: auto;
+  top: auto;
+}
+.bottom-card-content1{
+  bottom: auto;
+  top: auto;
+}
+
+.bottom-card-content .card{
+background-color: #FFFFFF;
+}
+
+
+.footer{
+  background-color: $page-background-color;
+  height: 200px;
+  color: whitesmoke;
+}
+
+
+.bottom-nav-bar{
+  background-color: none!important;
+}
+
+.navbar-nav .nav-item{
+  // background-color: black;
+  display: block;
+  color: black;
+  padding: 15px;
+
+}
+
+.bottom-nav-bar a{
+  color: black;
+}
